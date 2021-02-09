@@ -30,6 +30,8 @@ type Commands = {
 ### 3. Add types to `ipcMain` and `ipcRenderer`
 
 ```ts
+import { TypedIpcMain, TypedIpcRenderer } from "electron-typed-ipc";
+
 const typedIpcMain = ipcMain as TypedIpcMain<Events, Commands>;
 const typesIpcRenderer = ipcRenderer as TypedIpcRenderer<Events, Commands>;
 ```
