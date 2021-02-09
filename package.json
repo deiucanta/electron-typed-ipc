@@ -29,6 +29,7 @@
   },
   "name": "electron-typed-ipc",
   "author": "Andrei Canta",
+  "homepage": "https://github.com/deiucanta/electron-typed-ipc",
   "module": "dist/electron-typed-ipc.esm.js",
   "devDependencies": {
     "husky": "^4.2.5",
